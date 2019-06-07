@@ -1,0 +1,37 @@
+{
+  "name": "@lavaldi/normalized-components",
+  "version": "0.0.1",
+  "description": "normalized styled-components",
+  "main": "dist/index.js",
+  "source": "src/index.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.umd.js",
+  "repository": "lavaldi/normalized-components",
+  "scripts": {
+    "prepublish": "microbundle",
+    "dev": "microbundle watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "normalize",
+    "react",
+    "styled-components"
+  ],
+  "author": "Claudia Valdivieso <claumavaldivieso@gmail.com> (http://lavaldi.com)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "16.8.6",
+    "remcalc": "1.0.10",
+    "styled-components": "4.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "7.0.0",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "jest-styled-components": "6.3.1",
+    "microbundle": "0.11.0",
+    "react-dom": "16.8.6",
+    "react-test-renderer": "16.8.6"
+  }
+}
