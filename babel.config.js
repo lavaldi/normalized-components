@@ -1,3 +1,17 @@
 module.exports = {
-  presets: ['@babel/preset-env', '@babel/preset-react'],
+  presets: [
+    [
+      '@babel/preset-env',
+      {
+        'modules': 'commonjs'
+      }
+    ],
+    '@babel/preset-react'
+  ],
+  'plugins': [
+    'styled-components'
+  ],
+  'ignore': [
+    '**/*.spec.js'
+  ]
 };
