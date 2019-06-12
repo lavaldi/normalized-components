@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import remcalc from 'remcalc';
 
 export const Article = styled.article`
   display: block;
@@ -31,7 +30,7 @@ export const FigCaption = styled.figcaption`
 
 export const Figure = styled.figure`
   display: block;
-  margin: ${remcalc(16)} ${remcalc(40)};
+  margin: 1rem 2.5rem;
 `;
 
 export const Main = styled.main`
@@ -39,8 +38,8 @@ export const Main = styled.main`
 `;
 
 export const H1 = styled.h1`
-  font-size: ${remcalc(32)};
-  margin: ${remcalc(10)} 0;
+  font-size: 2rem;
+  margin: 0.625rem 0;
 `;
 
 export const Hr = styled.hr`
@@ -51,7 +50,7 @@ export const Hr = styled.hr`
 
 export const Pre = styled.pre`
   font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
-  font-size: ${remcalc(16)};
+  font-size: 1rem;
 `;
 
 export const A = styled.a`
@@ -77,17 +76,17 @@ export const Strong = styled.strong`
 
 export const Code = styled.code`
   font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
-  font-size: ${remcalc(16)};
+  font-size: 1rem;
 `;
 
 export const Kbd = styled.kbd`
   font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
-  font-size: ${remcalc(16)};
+  font-size: 1rem;
 `;
 
 export const Samp = styled.samp`
   font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
-  font-size: ${remcalc(16)};
+  font-size: 1rem;
 `;
 
 export const Dfn = styled.dfn`
@@ -163,7 +162,7 @@ export const Button = styled.button`
   &[type='button']:-moz-focusring,
   &[type='reset']:-moz-focusring,
   &[type='submit']:-moz-focusring {
-    outline: ${remcalc(1)} dotted ButtonText;
+    outline: 0.0625rem dotted ButtonText;
   }
 `;
 
@@ -187,7 +186,7 @@ export const Input = styled.input`
 
   &[type='search'] {
     appearance: textfield;
-    outline-offset: ${remcalc(-2)};
+    outline-offset: -0.125rem;
   }
 
   &[type='search']::-webkit-search-cancel-button,

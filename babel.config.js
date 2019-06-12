@@ -10,8 +10,5 @@ module.exports = {
   ],
   'plugins': [
     'styled-components'
-  ],
-  'ignore': [
-    '**/*.spec.js'
   ]
 };
