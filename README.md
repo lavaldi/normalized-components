@@ -4,7 +4,7 @@ normalize.css as styled-components 😎
 
 ## Install
 
-![npm (scoped)](https://img.shields.io/npm/v/@lavaldi/normalized-components.svg)
+[![npm (scoped)](https://img.shields.io/npm/v/@lavaldi/normalized-components.svg)](https://www.npmjs.com/package/@lavaldi/normalized-components)
 
 ```bash
 $ npm install @lavaldi/normalized-components --save-dev
